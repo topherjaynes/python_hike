@@ -49,5 +49,11 @@ def scopetest2():
     x = "this is a different string!"
     print x
 
+
+'''
+each module is a 'global' scope
+attrributes of the object
+Global, doesn't mean GLOBAL, more module'
+'''
 if __name__ == '__main__':
     scopetest2()
