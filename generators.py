@@ -43,6 +43,7 @@ def sum_sqr(x):
     print sum(i*i for i in range(x))
 
 
+
 def main():
     #str_reverse()
     #sum_sqr(10)
