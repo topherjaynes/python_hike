@@ -19,6 +19,14 @@ def main(argv):
 	
 	print string [:-2]
 	print string [::-1]
+	
+	
+	#string formating 
+	if len(argv) > 2:
+		count = 0 #using this as a count of the current itteration
+		for var in argv:
+			print "this is argument {count}: {var}".format(count=count,var =var)
+			count +=1
 
 
 if __name__ == '__main__':
